@@ -1,0 +1,2 @@
+[function.delete-post]
+verify_jwt = false
