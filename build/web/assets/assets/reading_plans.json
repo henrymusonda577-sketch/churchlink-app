@@ -1,0 +1,146 @@
+{
+  "plans": [
+    {
+      "id": "chronological",
+      "name": "Chronological Bible Reading",
+      "description": "Read through the Bible in the order events occurred",
+      "duration": 365,
+      "category": "yearly",
+      "difficulty": "intermediate",
+      "readings": [
+        {
+          "day": 1,
+          "readings": ["Genesis 1-3"],
+          "description": "Creation and the Fall"
+        },
+        {
+          "day": 2,
+          "readings": ["Genesis 4-7"],
+          "description": "Cain and Abel, Noah's Ark"
+        },
+        {
+          "day": 3,
+          "readings": ["Genesis 8-11"],
+          "description": "The Flood and Tower of Babel"
+        },
+        {
+          "day": 4,
+          "readings": ["Job 1-5"],
+          "description": "Job's Suffering"
+        },
+        {
+          "day": 5,
+          "readings": ["Job 6-9"],
+          "description": "Job's Response"
+        }
+      ]
+    },
+    {
+      "id": "new_testament_90",
+      "name": "New Testament in 90 Days",
+      "description": "Read through the entire New Testament in 90 days",
+      "duration": 90,
+      "category": "quarterly",
+      "difficulty": "beginner",
+      "readings": [
+        {
+          "day": 1,
+          "readings": ["Matthew 1-4"],
+          "description": "The Birth and Early Ministry of Jesus"
+        },
+        {
+          "day": 2,
+          "readings": ["Matthew 5-7"],
+          "description": "The Sermon on the Mount"
+        },
+        {
+          "day": 3,
+          "readings": ["Matthew 8-10"],
+          "description": "Jesus' Miracles and Sending of Disciples"
+        }
+      ]
+    },
+    {
+      "id": "psalms_wisdom",
+      "name": "Psalms and Wisdom Literature",
+      "description": "Focus on Psalms, Proverbs, Ecclesiastes, and Job",
+      "duration": 150,
+      "category": "thematic",
+      "difficulty": "intermediate",
+      "readings": [
+        {
+          "day": 1,
+          "readings": ["Psalm 1-5"],
+          "description": "Introduction to Psalms"
+        },
+        {
+          "day": 2,
+          "readings": ["Psalm 6-10"],
+          "description": "Prayers for Help"
+        },
+        {
+          "day": 3,
+          "readings": ["Proverbs 1-3"],
+          "description": "Wisdom and Understanding"
+        }
+      ]
+    },
+    {
+      "id": "gospel_harmony",
+      "name": "Gospel Harmony",
+      "description": "Read parallel accounts from the Gospels",
+      "duration": 60,
+      "category": "thematic",
+      "difficulty": "advanced",
+      "readings": [
+        {
+          "day": 1,
+          "readings": ["Matthew 1", "Luke 1:1-25"],
+          "description": "Genealogies and John's Birth Foretold"
+        },
+        {
+          "day": 2,
+          "readings": ["Matthew 2", "Luke 1:26-56"],
+          "description": "Jesus' Birth and Mary's Song"
+        }
+      ]
+    },
+    {
+      "id": "old_testament_180",
+      "name": "Old Testament in 180 Days",
+      "description": "Comprehensive reading of the Old Testament",
+      "duration": 180,
+      "category": "yearly",
+      "difficulty": "intermediate",
+      "readings": [
+        {
+          "day": 1,
+          "readings": ["Genesis 1-2"],
+          "description": "The Creation"
+        },
+        {
+          "day": 2,
+          "readings": ["Genesis 3-5"],
+          "description": "The Fall and Early Generations"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "yearly",
+      "name": "Year-Long Plans",
+      "description": "Extended reading plans for the whole year"
+    },
+    {
+      "id": "quarterly",
+      "name": "Quarterly Plans",
+      "description": "3-6 month reading plans"
+    },
+    {
+      "id": "thematic",
+      "name": "Thematic Plans",
+      "description": "Focused reading on specific themes or books"
+    }
+  ]
+}
