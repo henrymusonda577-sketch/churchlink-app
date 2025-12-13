@@ -1,0 +1,45 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Profile pictures - allow authenticated users to read/write their own and others' profile pictures
+    match /profile_pictures/{userId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Post images/videos - allow authenticated users to read/write
+    match /posts/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Story images/videos - allow authenticated users to read/write
+    match /stories/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Community content - allow authenticated users to read/write
+    match /community/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Church content - allow authenticated users to read/write
+    match /churches/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Video content - allow authenticated users to read/write
+    match /videos/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Content videos - allow authenticated users to read/write
+    match /content_videos/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Allow all other paths for authenticated users
+    match /{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
