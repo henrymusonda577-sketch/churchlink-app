@@ -74,6 +74,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   MaterialPageRoute(builder: (_) => DiscoverPeopleScreen(userInfo: widget.userInfo)));
             },
           ),
+          IconButton(
+            icon: const Icon(Icons.download, color: Colors.white),
+            tooltip: 'Download Church-Link',
+            onPressed: () async {
+              await launchUrl(Uri.parse('/download.html'));
+            },
+          ),
         ],
       ),
       body: PageView(
