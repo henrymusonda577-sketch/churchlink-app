@@ -3,9 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {".vercel/project.json": "9ce7a5b7404f9eee420503f69e3ca306",
-".vercel/README.txt": "2b13c79d37d6ed82a3255b83b6815034",
-"assets/AssetManifest.bin": "4ecbb2e4f54cb46597e2f428fa737365",
+const RESOURCES = {"assets/AssetManifest.bin": "4ecbb2e4f54cb46597e2f428fa737365",
 "assets/AssetManifest.bin.json": "d596890e1d9824bc5beecd3f9ec322e1",
 "assets/AssetManifest.json": "0dc39fe2583ae03bb60ee57e3aca7902",
 "assets/assets/bible_data.json": "3fa61b9f391c0c7150f65d6703d73aae",
@@ -46,7 +44,7 @@ const RESOURCES = {".vercel/project.json": "9ce7a5b7404f9eee420503f69e3ca306",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "firebase-messaging-sw.js": "5f5da99a1487d7fbc662333e2a68f775",
 "flutter.js": "888483df48293866f9f41d3d9274a779",
-"flutter_bootstrap.js": "322e9c7ed8fda61f576c5a2fb30b8dd9",
+"flutter_bootstrap.js": "b96d295a4279f542ac8566e66a370a48",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
